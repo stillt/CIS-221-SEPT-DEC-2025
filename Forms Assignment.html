@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang ="en">
+  <head>
+   <meta charset = "UTF-8">
+   <meta name = "viewport"content="width=device-width,initial scale=1.0">
+   <title> University Scholarship Application </title>
+ </head>
+ <body>
+<div class ="form-container"><h2>Scholarship Application Form</h2>
+     <form action="/submit-application" method="post">
+     <div class="form-group">
+     <label for="full-name">Full Name</lebel>
+     <input type="text" id=fullName" name="fullName">
+</div><br/>
+<div class="form-group"><label for="email">Email Address</label>
+<input type= "email" id="email name="email"  required>
+</div><br/>
+<div class="form-group"><label for="dob"> Date Of Birth</label>
+ <input type= "date" id="dob" name="dob" required>
+</div><br/>
+ <div class="form-group"><label for="phone">Phone Number</label>
+ <input type="text" id="phone" name="phone">
+</div><br/>
+<div class="form-group"><label for="residence"> Place Of Residence</label>
+<input type="residence" id="residence" name="residence" required>
+</div><br/>
+<div class="form-group"><label for="number"> KCSE Index Number</label>
+<input type="number" id="index" name="index" required>
+</div><br/>
+<div class ="form-group"><label for="level"> Study Level</lebel>
+<select id="level" name= "level" required>
+<option value="">--Select study Level--</option>
+<option value="degree"> Bachelor's Degree</option>
+<option value="master"> Master's Degree</option>
+<option value="phd"> PhD</option>
+</select>
+</div><br/>
+<div class="form-group"><label for="course"> Student's Study Program</label>
+<input type="course" id="course" name= "course" required>
+</div><br/>
+<hr>
+<button type="submit">Submit Application</button>
+</form>
+</div>
+</body>
+</html>
+
+
